@@ -1,8 +1,9 @@
 def markup(s1,s2,s3,s4,s5,s6,s7,s8,s9,t,m1):
     
-    """This function is defined to mark the markup
-    which has choosen by the user at user's desired position condition provided 
-    that the desired position should be empty."""
+    """
+    This function is defined to mark the markup which has choosen by the user 
+    at user's desired position condition provided that the desired position should be empty.
+    """
     
     if t=='1':
         if s1==" ":
@@ -53,10 +54,11 @@ def markup(s1,s2,s3,s4,s5,s6,s7,s8,s9,t,m1):
 
 def check_win(s1,s2,s3,s4,s5,s6,s7,s8,s9):
     
-    """This function is defined to check which player has win the match.
-    This function is called after every turn of the player to keep a check at 
-    every turn of the player and if at any point,it found to get any winning condition
-    true then it will return True for that particular player """
+    """
+    This function is defined to check which player has win the match.
+    This function is called after every turn of the player to keep a check at every turn of the player and if at any point,
+    it found to get any winning condition true then it will return True for that particular player 
+    """
     
     if s1=='x' and s2=='x' and s3=='x' or s1=='o' and s2=='o' and s3=='o' :
         return True
