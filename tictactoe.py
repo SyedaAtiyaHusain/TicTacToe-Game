@@ -1,9 +1,12 @@
 """
+Title: Tic Tac Toe Game
 Developed By: Syeda Atiya Husain
-Requirement: Python version 3 or later
+Language: Python
+Requirement: 
+            Python version: Python3 or later
 """
 
-from functions import *                                                     #importing necessary functions present in functions.py module.
+from functions import *                                                     #Importing necessary module.
 play=1    
 while(play):        
     board='| 1 | 2 | 3 |\n-------------\n| 4 | 5 | 6 |\n-------------\n| 7 | 8 | 9 |'
