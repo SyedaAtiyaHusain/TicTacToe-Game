@@ -1,6 +1,6 @@
 def markup(s1,s2,s3,s4,s5,s6,s7,s8,s9,t,m1):
     
-    """
+    """ 
     This function is defined to mark the markup which has choosen by the user 
     at user's desired position condition provided that the desired position should be empty.
     """
